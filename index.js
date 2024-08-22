@@ -16,8 +16,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         // Connect to MongoDB
-        await client.connect();
-        console.log("connected to MongoDB");
+        // await client.connect();
+        // console.log("connected to MongoDB");
 
         const animalCollection = client.db('job-task').collection('animals')
 
